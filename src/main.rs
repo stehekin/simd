@@ -1,5 +1,6 @@
 #![feature(portable_simd)]
 
+// source: https://www.cs.brandeis.edu/~cs146a/rust/rustbyexample-02-21-2015/simd.html
 use std::simd::{f32x4, Simd};
 
 fn add_assign(xs: &mut Vec<f32>, ys: &Vec<f32>) {
